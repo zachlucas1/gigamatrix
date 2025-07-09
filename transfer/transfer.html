@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Compare Titles</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="dark-mode">
+
+  <header>
+    <h1>Transfers</h1>
+    <nav>
+      <a href="../index.html">Matrix</a>
+      <a href="transfer.html">Transfers</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div>
+      <label for="oldTitle">Current Title:</label>
+      <select id="oldTitle"></select>
+
+      <label for="newTitle">New Title:</label>
+      <select id="newTitle"></select>
+
+      <button id="compareBtn">Compare</button>
+    </div>
+
+    <div id="comparisonResult"></div>
+  </div>
+
+  <script src="transfer.js"></script>
+</body>
+</html>

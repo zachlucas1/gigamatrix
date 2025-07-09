@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #000;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+.dark-mode nav a {
+  background-color: #333;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+.dark-mode nav a:hover {
+  background-color: #555;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#titleList li {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+ul#titleList li:hover {
+  background-color: #f0f0f0;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+ul.section-list {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+ul.section-list li {
+  cursor: default;
+  border: none;
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+ul.section-list li:hover {
+  background-color: transparent;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode ul#titleList li {
+  border: 1px solid #444;
+}
+
+.dark-mode ul#titleList li:hover {
+  background-color: #333;
+}
+
+.dark-mode input {
+  background-color: #222;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+.dark-mode button {
+  background-color: #333;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+.light-mode input,
+.light-mode button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.category-block {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #fafafa;
+}
+
+.dark-mode .category-block {
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+}
+
+.dark-mode select {
+  background-color: #222;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.dark-mode option {
+  background-color: #222;
+  color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
